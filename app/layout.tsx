@@ -15,9 +15,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lusitana.className} antialiased`}>
+      <body className={`${lusitana.className} antialiased scroll-smooth`}>
         {/* Navbar */}
-        <div>
+        <div className="mb-10">
           <Navbar />
         </div>
         {children}</body>

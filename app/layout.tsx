@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { inter, lusitana } from '@/app/ui/fonts';
+import { inter, lusitana, roboto, robotoMono, ubuntuFont } from '@/app/ui/fonts';
 import "./globals.css";
 import Navbar from "../components/Navbar";
 
@@ -14,8 +14,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${lusitana.className} antialiased scroll-smooth`}>
+    <html lang="en" className="scroll-smooth">
+      <body className={`${roboto.className} antialiased`}>
         {/* Navbar */}
         <div className="mb-10">
           <Navbar />

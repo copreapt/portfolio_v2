@@ -5,8 +5,8 @@ import React from 'react'
 const HomePage = () => {
   return (
     // intro
-    <div className='flex flex-col lg:max-w-5xl xl:max-w-7xl mx-auto'>
-      <div className='mb-40'>
+    <div className='flex flex-col'>
+      <div>
         <Intro/>
       </div>
       <div>

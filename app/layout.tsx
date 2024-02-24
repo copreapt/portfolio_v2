@@ -16,11 +16,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${darker_grotesque.variable} ${poppins.variable} antialiased`}>
-        {/* Navbar */}
-        <div className="mb-10">
-          <Navbar />
-        </div>
-        {children}</body>
+        {children}
+      </body>
     </html>
   );
 }

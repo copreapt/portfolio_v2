@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { inter, lusitana, roboto, robotoMono, ubuntuFont } from '@/app/ui/fonts';
 import "./globals.css";
 import Navbar from "../components/Navbar";
+import { darker_grotesque, poppins } from "./ui/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${roboto.className} antialiased`}>
+      <body className={`${darker_grotesque.variable} ${poppins.variable} antialiased`}>
         {/* Navbar */}
         <div className="mb-10">
           <Navbar />

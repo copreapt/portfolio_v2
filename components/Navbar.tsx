@@ -1,5 +1,4 @@
 import React from 'react'
-import ThemeToggle from './ThemeToggle';
 
 const Navbar = () => {
   return (
@@ -15,8 +14,6 @@ const Navbar = () => {
         <a>Projects</a>
         <a>Contact</a>
       </div>
-      {/* change theme */}
-      <ThemeToggle />
     </div>
   );
 }

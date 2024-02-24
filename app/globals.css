@@ -3,3 +3,43 @@
 @tailwind utilities;
 
 
+@layer components {
+    h1{
+        font-family: var(--font-grotesque);
+        font-weight: 500;
+        word-spacing: 4%;
+        line-height: 150%;
+    }
+    h2{
+        font-family: var(--font-grotesque);
+        font-weight: 400;
+        word-spacing: 4%;
+        line-height: 150%;
+    }
+    h3{
+        font-family: var(--font-grotesque);
+        font-weight: 400;
+        word-spacing: 4%;
+        line-height: 150%;
+    }
+    .text1{
+        font-family: var(--font-poppins);
+        font-weight: 500;
+        word-spacing: 2%;
+        line-height: 140%;
+    }
+    .text2{
+        font-family: var(--font-poppins);
+        font-weight: 400;
+        word-spacing: 2%;
+        line-height: 140%;
+    }
+    .descriptive{
+        font-family: var(--font-poppins);
+        font-weight: 300;
+        word-spacing: 2%;
+        line-height: 140%;
+    }
+}
+
+

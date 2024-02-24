@@ -9,8 +9,8 @@ const Intro = () => {
       <div className='flex justify-evenly mb-20 items-center'>
         {/* left column */}
       <div className='flex flex-col space-y-10 text-center'>
-        <h1 className='text-5xl font-extralight'>Full-Stack Web Developer</h1>
-        <p className='font-extralight text-3xl'>Building Better Software <br />
+        <h1 className='text-5xl'>Full-Stack Web Developer</h1>
+        <p className='text-3xl'>Building Better Software <br />
 Writing Better Code</p>
       </div>
       {/* right column */}

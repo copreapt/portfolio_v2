@@ -4,13 +4,15 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <div id="about_me">
-        <h1 className='text-4xl mb-20'>About Me</h1>
-        <div className='max-w-2xl mx-auto'>
-          {/* description */}
-          <div className='text-xl font-extralight leading-8 space-y-5 mb-10'>
-            <p className='tracking-wide '>My Name is <span className='text-2xl font-semibold text-base-content'>Catalin Oprea</span>, I have grown up in Romania and lived a big part of my life in Madrid,Spain.</p>
-            <p className='tracking-wide'>I enjoy playing football and reading books in my free time.</p>
+      <div id="about_me" className='mb-20'>
+        <h1 className='text-4xl mb-10'>About</h1>
+        <div className='flex gap-4'>
+          {/* horizontal line */}
+          <div className='w-20 h-[2px] bg-white mt-2'></div>
+          {/* about me */}
+          <div>
+            <p className='descriptive'>I'm a passionate Junior Web Developer, based in Romania.
+As a Junior Full Stack Developer, I possess an impressive arsenal of skills in HTML, CSS, JavaScript, React js, Tailwind CSS, Express js, Mongodb, Firebase, Next js and Node js. <span className='text-white'>I'm a pro active person, I like to take initiative in all my projects.</span> Also, I'm a very competitive person and I'm always trying to improve my skills and outgrow myself everyday.</p>
           </div>
         </div>
       </div>

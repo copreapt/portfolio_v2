@@ -14,7 +14,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className="scroll-smooth max-w-screen-xl mx-auto bg-[#232121]">
       <body className={`${darker_grotesque.variable} ${poppins.variable} antialiased`}>
         {children}
       </body>

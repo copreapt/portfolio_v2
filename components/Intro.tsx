@@ -7,7 +7,7 @@ const Intro = () => {
     {/* container */}
     <div className='flex flex-col'>
       {/* Navbar */}
-      <div className="w-full flex justify-between py-4 bg-[#232121] items-center px-10 cursor-pointer text-[##656464] pb-[7.5rem]">
+      <div className="w-full flex justify-between py-4 items-center  cursor-pointer text-[##656464] pb-[7.5rem]">
       {/* logo */}
       <div>
         <h1 className="text-3xl">Logo</h1>
